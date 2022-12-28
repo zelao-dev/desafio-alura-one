@@ -96,6 +96,7 @@ img	{
 
 .botao-azul:hover {
 	background: #000;
+	font-weight: 800;
 }
 
 .botao-transparente {
@@ -123,6 +124,8 @@ img	{
 
 .botao-transparente:hover {
 	background: #000;
+	color: #fff;
+	font-weight: 800;
 }
 
 .resultado-container {
@@ -180,4 +183,6 @@ img	{
 
 .resultado-container button:hover {
 	background: #000;
+	color: #fff;
+	font-weight: 800;
 }
