@@ -33,8 +33,9 @@
 			var texto = document.querySelector("textarea").value;
 			console.log(texto)
 
-			var textoCriptografado = text.replaceAll("e","enter")
-			console.log(textoCriptografado)
+			var textoCriptografado = texto.replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat")
+
+			/*console.log(textoCriptografado)*/
 
 			document.getElementById("resultado").innerHTML = textoCriptografado
 
