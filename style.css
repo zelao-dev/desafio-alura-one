@@ -78,7 +78,7 @@ img	{
 	width: 218px;
 	margin: 5px 5px 0 -20px;
 
-	background: #0A3871;;
+	background: #0A3871;
 
 	border: 1px solid #0A3871;
 	border-radius: 14px;
@@ -92,6 +92,10 @@ img	{
 	font-size: 16px;
 	vertical-align: center;
 
+}
+
+.botao-azul:hover {
+	background: #000;
 }
 
 .botao-transparente {
@@ -117,6 +121,9 @@ img	{
 
 }
 
+.botao-transparente:hover {
+	background: #000;
+}
 
 .resultado-container {
 
@@ -169,4 +176,8 @@ img	{
 	font-size: 16px;
 	vertical-align: center;
 
+}
+
+.resultado-container button:hover {
+	background: #000;
 }
