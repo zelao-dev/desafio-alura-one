@@ -50,10 +50,6 @@ img	{
   opacity: 1; /* Firefox */
 }
 
-.text-entry-input:focus {
-  border: none;
-  outline: none;
-}
 
 #imagem-exclamacao {
 	margin: 0 5px 20px 0 ;
@@ -95,6 +91,13 @@ img	{
 }
 
 .botao-azul:hover {
+	background: #0A3f7f;
+	font-weight: 800;
+
+	cursor: pointer;
+}
+
+.botao-azul:active {
 	background: #000;
 	font-weight: 800;
 }
@@ -123,11 +126,17 @@ img	{
 }
 
 .botao-transparente:hover {
-	background: #000;
-	color: #fff;
+	background: #EeEeEe;
+	color: #0A3871;
 	font-weight: 800;
+
+	cursor: pointer;
 }
 
+.botao-transparente:active {
+	background: #000;
+	color: #fff;
+}
 
 .resultado-container {
 
@@ -186,6 +195,7 @@ img	{
 	background: #0A3871;
 	color: #fff;
 	font-weight: 800;
+	cursor: pointer;
 }
 
 .resultado-container button:active {
