@@ -45,6 +45,11 @@ img	{
 	resize: none;
 }
 
+.text-entry-input:focus {
+  border: none;
+  outline: none;
+}
+
 .text-entry-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #0A3871;
   opacity: 1; /* Firefox */
@@ -140,14 +145,14 @@ img	{
 
 .resultado-container {
 
-	float: right;
-	margin: 30px 50px;
+	display: inline-block;
+	margin: 0 0 0 130px;
 
 	background: #fff;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 
 	width: 300px;
-	height: 540px;
+	height: 538px;
 
 	border-radius: 32px;
 
