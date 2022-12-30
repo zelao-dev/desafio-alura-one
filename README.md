@@ -9,3 +9,5 @@ Sei que não domino tudo o que usei e escrevi de CSS, mas, **pela primeira vez, 
 ## Visite este meu primeiro projeto aqui: https://zelao-dev.github.io/desafio-alura-one/
 
 O design (Figma) está aqui: https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?t=XHDGjAJsY3IH4492-0.
+
+![badge-01-desafio](https://user-images.githubusercontent.com/57414786/210112856-80836d42-60d0-4483-bcb3-421c048b8e16.png)
