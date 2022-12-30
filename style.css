@@ -146,10 +146,14 @@ body {
 	color: #fff;
 }
 
+/* PARTE DO RESULTADO/TEXTO CRIPTOGRAFADO*/
+
 #resultado-container {
 
 	display: inline-block;
-	margin: 0 0 0 130px;
+
+	float: right;
+	margin: 30px 40px 0 0;
 
 	background: #fff;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -163,8 +167,48 @@ body {
 
 }
 
+#no-text-image {
+	display: block;
 
-#resultado-container p {
+	vertical-align: center;
+
+	width: 80%;
+
+	margin: 100px auto 30px auto;
+
+}
+
+#no-text-info {
+	display: block;
+
+	margin: 10px auto 15px auto;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	
+
+	text-align: center;
+
+	color: #343A40;
+}
+
+#no-text-info-help {
+	display: block;
+
+	
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	
+	text-align: center;
+	color: #495057;
+}
+
+#resultado-container #resultado-texto {
 	height: 460px;
 	padding: 10px;
 

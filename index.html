@@ -30,13 +30,13 @@
 			<img src="./images/no-text.png" id="no-text-image">
 			<p id="no-text-info">Nenhuma mensagem encontrada</p>
 			<p id="no-text-info-help">Digite um texto que você deseja criptografar ou descriptografar.</p>
-			<!--<p id="resultado"></p>
+			<!--<p id="resultado-texto"></p>
 			<button onclick="copiaTexto()">Copiar texto</button>-->
 		</div>
 	</body>
 	<script type="text/javascript">
 		function trocaContainerResultado() {
-			document.getElementById("resultado-container").innerHTML = "<p id='resultado'></p><button onclick='copiaTexto()'>Copiar texto</button>"
+			document.getElementById("resultado-container").innerHTML = "<p id='resultado-texto'></p><button onclick='copiaTexto()'>Copiar texto</button>"
 
 		}
 
@@ -55,7 +55,7 @@
 
 				/*console.log(textoCriptografado)*/
 
-				document.getElementById("resultado").innerHTML = textoCriptografado
+				document.getElementById("resultado-texto").innerHTML = textoCriptografado
 			
 				return 0
 			}	
