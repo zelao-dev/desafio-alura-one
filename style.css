@@ -3,6 +3,9 @@
 }
 
 body {
+	width: 100%;
+	max-width: 1366px;
+
 	margin: 0 auto;
 	background: #E5E5E5;
 
@@ -143,7 +146,7 @@ body {
 	color: #fff;
 }
 
-.resultado-container {
+#resultado-container {
 
 	display: inline-block;
 	margin: 0 0 0 130px;
@@ -157,10 +160,11 @@ body {
 	border-radius: 32px;
 
 	padding: 10px;
+
 }
 
 
-.resultado-container p {
+#resultado-container p {
 	height: 460px;
 	padding: 10px;
 
@@ -175,7 +179,7 @@ body {
 
 }
 
-.resultado-container button {
+#resultado-container button {
 	width: 80%;
 	height: 50px;
 	display: block;
@@ -197,13 +201,13 @@ body {
 
 }
 
-.resultado-container button:hover {
+#resultado-container button:hover {
 	background: #0A3871;
 	color: #fff;
 	font-weight: 800;
 	cursor: pointer;
 }
 
-.resultado-container button:active {
+#resultado-container button:active {
 	background: #000;
 }

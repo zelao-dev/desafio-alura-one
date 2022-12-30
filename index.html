@@ -26,26 +26,39 @@
 			<button class="botao-transparente" onclick="decripto()">Descriptografar</button>
 		</div>
 
-		<div class="resultado-container">
-			<!--<img src="./images/no-text.png" id="no-text-image">-->
-			<!--<p id="no-text-info">Nenhuma mensagem encontrada</p>-->
-			<!--<p id="no-text-info-help">Digite um texto que você deseja criptografar ou descriptografar.</p>-->
-			<p id="resultado"></p>
-			<button onclick="copiaTexto()">Copiar texto</button>
+		<div id="resultado-container">
+			<img src="./images/no-text.png" id="no-text-image">
+			<p id="no-text-info">Nenhuma mensagem encontrada</p>
+			<p id="no-text-info-help">Digite um texto que você deseja criptografar ou descriptografar.</p>
+			<!--<p id="resultado"></p>
+			<button onclick="copiaTexto()">Copiar texto</button>-->
 		</div>
 	</body>
 	<script type="text/javascript">
-		function cripto() {		
+		function trocaContainerResultado() {
+			document.getElementById("resultado-container").innerHTML = "<p id='resultado'></p><button onclick='copiaTexto()'>Copiar texto</button>"
+
+		}
+
+		function cripto() {			
 			var texto = document.querySelector("textarea").value;
-			/*console.log(texto)*/
-
-			var textoCriptografado = texto.replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat")
-
-			/*console.log(textoCriptografado)*/
-
-			document.getElementById("resultado").innerHTML = textoCriptografado
 			
-			return 0
+			// se o input estiver vazio = RETURN 0
+			if (texto == "") {
+				alert("insira um texto!")
+				return 0
+			} 
+			else {
+				trocaContainerResultado()
+
+				var textoCriptografado = texto.replaceAll("e","enter").replaceAll("i","imes").replaceAll("a","ai").replaceAll("o","ober").replaceAll("u","ufat")
+
+				/*console.log(textoCriptografado)*/
+
+				document.getElementById("resultado").innerHTML = textoCriptografado
+			
+				return 0
+			}	
 		}
 
 
@@ -61,6 +74,8 @@
 			
 			return 0
 		}
+
+		
 
 		function copiaTexto() {
 			var textoCopiado = document.getElementById("resultado").innerHTML
